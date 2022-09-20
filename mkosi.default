@@ -1,0 +1,15 @@
+[Distribution]
+distribution=debian
+release=bullseye
+mirror=https://cloudfront.debian.net/debian
+
+[Output]
+format=gpt_btrfs
+output=nginx.raw
+minimize=true
+compress-fs=zstd
+
+[Content]
+Packages=
+  nginx
+
